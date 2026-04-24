@@ -57,8 +57,7 @@
     box-shadow: 0px 1px 30px 1px #010b1985;
     margin: 20vw;
     overflow: hidden; 
-    display: flex;
-    flex-wrap: wrap;
+   
 }
 .projeto1 h2{
     font-size: 2rem;
@@ -79,8 +78,8 @@
 
 .projeto1 img{
     border-radius: 2%;
+    margin-top: 9px;
     width: 90%;
-    margin: 20px;
     transition: transform 0.5s ease;
     cursor: pointer;
 
