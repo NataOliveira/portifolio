@@ -6,19 +6,16 @@
     background-color: rgb(0, 0, 0);
     width: 100vw;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
-}
-
-.sobre {
-    padding:0px;
-    width: 50vw;
+    flex-wrap: wrap;
 }
 
  h2{
+    text-align: center;
     font-size: 3rem;
-    margin-bottom: 20px;
     color: rgb(111, 255, 0);
+    width: 100vw;
 }
 
 p{
@@ -35,9 +32,13 @@ p{
 }
 
 .projetos, .habilidades, .sobre, .contato {
-    height: 20rem;
+    padding: 2rem;
     background-color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: left;
+}
+
+.sobre {
+    width: 50vw;
 }
 
 .logos {
@@ -46,6 +47,9 @@ p{
     justify-content: center;
     gap: 50px;
     margin-top: 20px;
+    flex-wrap: wrap;
+
+
 }
 .logos img {
     width: 100px;

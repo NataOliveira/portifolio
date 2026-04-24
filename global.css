@@ -15,6 +15,9 @@
         font-size: 2rem;
         flex-wrap: wrap;
     }
+    p{
+        width: 100vw;
+    }
     .conteiner {
         background-color: #000000;
         flex-direction: column;
