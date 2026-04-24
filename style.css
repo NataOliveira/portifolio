@@ -3,13 +3,16 @@
 
 
 .conteiner {
-    background-color: rgb(0, 0, 0);
     width: 100vw;
     display: flex;
     align-items: left;
     justify-content: space-between;
-    flex-wrap: wrap;
+   
 }
+header h1{
+    color: rgb(111, 255, 0);
+    font-size: 4rem;
+    font-weight: bold;}
 
  h2{
     text-align: center;
@@ -19,9 +22,11 @@
 }
 
 p{
+    text-align: justify;
     font-size: 1.2rem;
     line-height: 1.6;
 }
+
 
 .fotodiv {
    font-size: 50%;
@@ -31,15 +36,19 @@ p{
     height: auto;
 }
 
-.projetos, .habilidades, .sobre, .contato {
+.projetos, .habilidades, .contato {
     padding: 2rem;
     background-color: rgb(0, 0, 0);
     text-align: left;
 }
-
-.sobre {
+.sobre{
     width: 50vw;
 }
+.sobre h2 {
+    width: 100%;
+}
+
+
 
 .logos {
     padding: 100px;
