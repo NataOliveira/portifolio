@@ -1,0 +1,46 @@
+.sobre{
+    padding: 3rem;
+    background-color:  #010b19;
+}
+.sobre h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;    
+    text-align: center; 
+    padding: 20px;
+}
+.sobre p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-inline: 5rem;
+}
+
+.wave{
+    width: 100%;
+}
+
+.projetosTitle{
+    align-items: center;
+    text-align: center; 
+    padding: 20px;
+}
+
+.projetosTitle h2{
+    font-size: 3rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;    
+}
+
+.projetosTitle p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-inline: 5rem;
+}
