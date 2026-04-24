@@ -45,12 +45,20 @@
     margin-inline: 5rem;
 }
 
+.conteiner{
+    background-color: rgb(255, 255, 255);
+    
+}
+
 .projeto1{
-    border-radius: 10px; 
-    background-color: #ffffff;
+    text-align: center;
+    border-radius: 2%; 
+    background-color: #fdfdfd;
     box-shadow: 0px 1px 30px 1px #010b1985;
     margin: 20vw;
-
+    overflow: hidden; 
+    display: flex;
+    flex-wrap: wrap;
 }
 .projeto1 h2{
     font-size: 2rem;
@@ -59,6 +67,7 @@
     text-align: left;
     padding: 1rem;
     margin-inline: 1rem;
+    
 }
 .projeto1 p{
     font-size: 1.5rem;
@@ -66,4 +75,18 @@
     text-align: left;
     padding: 1rem;
     margin-inline: 1rem;
+}
+
+.projeto1 img{
+    border-radius: 2%;
+    width: 90%;
+    margin: 20px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+}
+
+.projeto1 img:hover{
+    transform: scale(1.11);
+    
 }
