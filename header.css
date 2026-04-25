@@ -1,5 +1,6 @@
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -9,6 +10,7 @@ header{
 
 .navbar ul{
     list-style: none;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0;
     padding: 15px 20px;
