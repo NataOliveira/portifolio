@@ -46,6 +46,7 @@
 }
 
 .conteiner{
+    justify-content: center;
     background-color: dddcdc;
     display: flex;
     flex-wrap: wrap;
