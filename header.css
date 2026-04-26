@@ -1,9 +1,10 @@
 header{
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    
     background: linear-gradient(to top, #010b19, #0a1c2e);
 
 }
