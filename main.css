@@ -4,7 +4,7 @@
 }
 .sobre h2 {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
     font-weight: 700;    
@@ -12,9 +12,9 @@
    
 }
 .sobre p{
-    padding: 5rem;
+    padding: 3rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: sans-serif;
     text-align: center;
     
@@ -40,7 +40,7 @@
 }
 
 .sessao p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: sans-serif;
     text-align: center;
     margin-inline: 5rem;
