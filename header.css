@@ -4,7 +4,6 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
     background: linear-gradient(to top, #010b19, #0a1c2e);
 
 }
@@ -13,10 +12,9 @@ header{
     list-style: none;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0;
-    padding: 15px 20px;
+    margin-bottom: 7rem;
     display: flex;
-    gap : 30px;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -28,7 +26,6 @@ header{
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
     font-weight: 700;    
-    
     transition: color 0.3s ease;
 }
 
