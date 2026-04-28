@@ -1,17 +1,21 @@
 .rodape{
     background: linear-gradient(to bottom, #010b19, #0a1c2e);
-    text-align: left;
+    text-align: right;
+    padding-top: 1rem;
     padding-bottom: 2rem;
-    padding-left: 1rem;
-    margin-top: -5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: -8px;
+   
    
 }
 
 .rodape a{
-    font-size:1.5rem;
+    font-size:1rem;
     color: #ffffff;
     font-weight: 700; 
     text-decoration: none;
+    
 }
 
 
@@ -34,4 +38,11 @@ transform: scale(1.11);
 transform: scale(1.11);
 }
 
+.info{
+    text-align: left;
+    font-size:1rem;
+    color: #ffffff;
+    font-weight: 700; 
+    text-decoration: none;
+}
 
