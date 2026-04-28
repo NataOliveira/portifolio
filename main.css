@@ -1,10 +1,11 @@
 .sobre{
+    padding-top: 4rem;
     width: 100vw;
     background-color:  #010b19;
 }
-.sobre h2 {
+.sobre h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
     font-weight: 700;    
@@ -12,7 +13,8 @@
    
 }
 .sobre p{
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-inline: 20%;
     color: white;
     font-size: 1rem;
     font-family: sans-serif;
@@ -33,6 +35,7 @@
 }
 
 .sessao h2{
+    padding-top: 4rem;
     font-size: 3rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
@@ -61,8 +64,18 @@
     text-align: center;
     border-radius: 2%; 
     background-color: #fdfdfd;
-    box-shadow: 0px 1px 30px 1px #010b1985;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 50px 15px rgba(255, 255, 255, 0.8);
     overflow: hidden; 
+    transition: all 0.3s;
+    
+   
+}
+.projeto1:hover{
+    object-fit: cover;
+    transform: scale(1.05);
+    box-shadow: 0px 2px 50px 2px #ffffff85;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
    
 }
 
@@ -78,10 +91,12 @@
     font-size: 70%;
     font-family: sans-serif;
     text-align: left;
-    margin-inline: 1rem;
+    margin-inline: 0.875rem;
 }
 
 .projeto1 img{
+
+    position: relative;
     border-radius: 2%;
     margin-top: 9px;
     width: 90%;
@@ -92,5 +107,4 @@
 
 .projeto1 img:hover{
     transform: scale(1.11);
-    
 }
