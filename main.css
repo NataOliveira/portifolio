@@ -36,7 +36,7 @@
 
 .sessao h2{
     padding-top: 4rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
     font-weight: 700;    
@@ -58,7 +58,7 @@
     gap: 5rem;
 }
 
-.projeto1{
+.cards{
     width: 20rem;
     height: 25rem;
     text-align: center;
@@ -71,7 +71,7 @@
     
    
 }
-.projeto1:hover{
+.cards:hover{
     object-fit: cover;
     transform: scale(1.05);
     box-shadow: 0px 2px 50px 2px #ffffff85;
@@ -79,22 +79,24 @@
    
 }
 
-.projeto1 h2{
+.cards h2{
+    padding-top: 3rem;
+    padding-left: 1rem;
     font-size: 2rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
-    text-align: center;
+    text-align: left;
     
     
 }
-.projeto1 p{
-    font-size: 70%;
+.cards p{
+    font-size: 0.8rem;
     font-family: sans-serif;
     text-align: left;
     margin-inline: 0.875rem;
 }
 
-.projeto1 img{
+.cards img{
 
     position: relative;
     border-radius: 2%;
@@ -105,6 +107,45 @@
 
 }
 
-.projeto1 img:hover{
+.cards img:hover{
     transform: scale(1.11);
+}
+
+.cardsh{
+    width: 15rem;
+    height: 20rem;
+    text-align: center;
+    border-radius: 2%; 
+    background-color: #fdfdfd;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 50px 15px rgba(255, 255, 255, 0.8);
+    overflow: hidden; 
+    transition: all 0.3s;}
+
+.cardsh h2{
+    padding-top: 3rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    text-align: left;
+    
+}
+
+.cardsh img{
+
+    position: relative;
+    border-radius: 2%;
+    margin-top: 9px;
+    width: 90%;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+}
+
+.cardsh:hover{
+   object-fit: cover;
+    transform: scale(1.05);
+    box-shadow: 0px 2px 50px 2px #ffffff85;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
 }
