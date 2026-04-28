@@ -20,8 +20,8 @@
     
 }
 
-.wave{
-    width: 100vw;
+.wave2 {
+    transform: scaleY(-1);
 }
 
 
