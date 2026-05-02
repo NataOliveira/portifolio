@@ -1,4 +1,4 @@
-@media (max-width: 600px){
+@media (max-width: 675px){
     .navbar ul{
         justify-content: space-around;
         display: flex;
@@ -17,12 +17,14 @@
   
 }
 header img {
-    width: 80px;
+    width: 8rem;
     filter: invert(100%) ;
     transition: 1s;
     
 }
-
+.logo{
+    margin: 0;
+}
 
 
 
