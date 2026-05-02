@@ -16,5 +16,19 @@
     font-family: sans-serif;
   
 }
+header img {
+    width: 80px;
+    filter: invert(100%) ;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+
+
 
 }
