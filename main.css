@@ -1,166 +1,99 @@
-.pc{
-    width: 450px;
-    opacity: 20%;
-    right: 0;
-    position: absolute;
-    
-}
-
 
 .sobre{
-    text-align: center;
-    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    padding: 5%;
     width: 100vw;
-    background-color:  #010b19;
+    background-color: transparent;
 }
 .sobre h1 {
+    line-height: 1;
+    padding-top: 12px;
     color: white;
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
     font-weight: 700;    
-    text-align: center; 
-   
 }
+
+.sobre h2{
+    color: white;
+}
+
+.sobrenome{
+    color: #206efd;
+}
+   
+
 .sobre p{
-    padding-top: 3rem;
-    padding-inline: 20%;
+    padding-top: 1rem;
+    max-width: 50vw;
     color: white;
     font-size: 1rem;
-    font-family: sans-serif;
-    text-align: center;
-    
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+  
 }
 
-.wave2 {
-    transform: scaleY(-1);
+.sessaotitle{
+    padding-inline: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    text-align: left; 
+    gap: 2rem;
 }
 
-
-
-.sessao{
-    align-items: center;
-    text-align: center; 
-    
-   
-}
-
-.sessao h2{
-    padding-top: 4rem;
+.sessaotitle h2{
+    color:#206efd;
     font-size: 2rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
-    font-weight: 700;    
+       
 }
 
-.sessao p{
+.sessaotitle h3 a{
+    text-decoration: none;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    font-size: 1.5rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    box-shadow: 0px 0px 1px 2px #206efd;   
+    
+   
+}
+.sessaotitle h3{
+    transition: 0.5s;
+}
+.sessaotitle h3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.sessaotitle p{
+    color: white;
     font-size: 1rem;
-    font-family: sans-serif;
-    text-align: center;
-    margin-inline: 5rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    max-width: 50vw;
 }
 
 .conteiner{
-    justify-content: center;
-    background-color: #dddcdc;
     display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
     flex-wrap: wrap;
-    margin: 1rem;
-    gap: 5rem;
+    gap: 2rem;
+    padding: 5%;
 }
 
-.cards{
-    width: 20rem;
-    height: 25rem;
-    text-align: center;
-    border-radius: 2%; 
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 0 50px 15px rgba(255, 255, 255, 0.8);
-    overflow: hidden; 
-    transition: all 0.3s;
-    
-   
-}
-.cards:hover{
-    object-fit: cover;
-    transform: scale(1.05);
-    box-shadow: 0px 2px 50px 2px #ffffff85;
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
-   
-}
-
-.cards h2{
-    padding-top: 3rem;
-    padding-left: 1rem;
-    font-size: 2rem;
-    font-family: "Eczar", serif;
-    font-optical-sizing: auto;
-    text-align: left;
-    
-    
-}
-.cards p{
-    font-size: 0.8rem;
-    font-family: sans-serif;
-    text-align: left;
-    margin-inline: 0.875rem;
-}
-
-.cards img{
-
-    position: relative;
-    border-radius: 2%;
-    margin-top: 9px;
-    width: 90%;
-    transition: transform 0.5s ease;
-    cursor: pointer;
-
-}
-
-.cards img:hover{
-    transform: scale(1.11);
-}
-
-.cardsh{
-    width: 50%; max-width: 10rem;
-    height: auto;
-   
-    padding: 1rem;
-    text-align: center;
-    border-radius: 0.5rem; 
-    background-color: #fdfdfd;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden; 
-    transition: all 0.3s;}
-
-.cardsh h2{
-    width: 100%;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    font-size: 100%;
-    font-family: "Eczar", serif;
-    font-optical-sizing: auto;
-    text-align: left;
-    
-}
-
-.cardsh img{
-
-    position: relative;
-    border-radius: 2%;
-    margin-top: 9px;
-    width: 90%;
-    transition: transform 0.5s ease;
-    cursor: pointer;
-
-}
-
-.cardsh:hover{
-    object-fit: cover;
-    transform: scale(1.05);
-    box-shadow: 0px 2px 50px 2px #ffffff85;
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
-}
 
 
 
