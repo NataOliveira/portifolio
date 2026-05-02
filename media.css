@@ -1,9 +1,56 @@
-  /*Mobile*/
-@media (max-width: 675px){ 
+   /*Tablet*/
+@media (max-width: 920px){ 
+    .navbar ul{
+        flex-direction: column;
+        line-height:1.1;
+        gap: 0.5rem;
+       
+}
+    .sobre p{
+    max-width: 90vw;
+    color: white;
+ 
+}
+    header img {
+    width: 7rem;   
+}
+
+    .sessaotitle h3 a{
+    font-size: 1rem;
+}
+
+    .sobre h1 {
+    line-height: 1;
+    font-size: 3rem;
+}
+    .sessaotitle h2{
+    font-size: 1.5rem;
+
+}
+    .conteiner{
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .cards{
+    width: 90%;
+    max-width: 35rem;
+    height: auto;
+    
+}
+
+
+}
+ 
+ 
+ /*Mobile*/ 
+@media (max-width: 480px){ 
     .navbar ul{
         line-height:1.1;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.3rem;
        
 }
     .sobre p{
@@ -11,32 +58,29 @@
     color: white;
  
 }
-header img {
-    width: 8rem;   
+    header img {
+    width: 7rem;   
 }
 
-
-.sessaotitle h3 a{
+    .sessaotitle h3 a{
     font-size: 1rem;
 }
 
-.sobre h1 {
+    .sobre h1 {
     line-height: 1;
-    font-size: 4rem;
+    font-size: 2.2rem;
 }
-.sessaotitle h2{
-    font-size: 1.5rem;
+    .sessaotitle h2{
+    font-size: 1.2rem;
+}
+
+   .cards{
+    width: 95%;
+    max-width: 35rem;
+    height: auto;
+    
 }
 
 
-
-
-
-
-
-}
-  /*Tablet*/
-@media (max-width: 925px){ 
-  
 
 }
