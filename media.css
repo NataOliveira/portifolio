@@ -112,12 +112,12 @@
 }
 
 
-.rodape{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    padding-inline: 0;
-    align-items: start;
+    .rodape{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-inline: 0;
+        align-items: start;
 }
 }
