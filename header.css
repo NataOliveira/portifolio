@@ -3,9 +3,8 @@ header{
     justify-content:space-between;
     width: 95%;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.492);
-    box-shadow: 1px 5px 22px black;
-    backdrop-filter: blur(10%);
+    background-color: transparent;
+    backdrop-filter: blur(30%);
    
 }
 

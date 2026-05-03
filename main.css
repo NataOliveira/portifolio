@@ -67,16 +67,16 @@
     font-size: 1.2rem;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
-    box-shadow: 0px 0px 1px 2px #206efd;   
+    box-shadow: 0px 0px 1px 0.408px #206efd;   
     
    
 }
 .sessaotitle h3{
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .sessaotitle h3:hover{
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .sessaotitle p{

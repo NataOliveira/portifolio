@@ -99,6 +99,7 @@
     .cardsh{
         flex-wrap: nowrap;
         gap: 1rem;
+        width: 9rem;
 
 }
 
@@ -106,7 +107,7 @@
         font-size: 1.1px;
         text-align: left;
 }
-  .cards img {
+    .cards img {
         content: url(imgs/cordel.png);
 }
 
