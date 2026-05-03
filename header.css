@@ -1,9 +1,7 @@
 header{
-    padding: 1.3rem;
     display: flex;
     justify-content:space-between;
     width: 95%;
-    top: 0;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.492);
     box-shadow: 1px 5px 22px black;
@@ -15,7 +13,7 @@ header img {
     width: 100px;
     filter: invert(100%) ;
     transition: 1s;
-    margin-left: 50px;
+    margin-left: 10%;
     
 }
 
@@ -49,5 +47,4 @@ header img {
     color: #206efd;
     
 }
-
 
