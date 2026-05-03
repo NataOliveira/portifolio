@@ -5,6 +5,7 @@
 }
 body{
     width: 100vw;
+    background-color: black;
     background-image: url(imgs/Bg\ header.jpg) ;
     background-attachment: fixed;
     background-size: cover;
