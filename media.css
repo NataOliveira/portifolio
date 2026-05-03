@@ -120,4 +120,9 @@
         padding-inline: 0;
         align-items: start;
 }
+
+    .icons{
+        align-items: end;
+       
+    }
 }
