@@ -85,6 +85,32 @@
     max-width: 50vw;
 }
 
+
+.sessaotitleh{
+    padding-inline: 5%;
+    text-align: center; 
+    gap: 2rem;
+    background-color: transparent;
+    padding-inline: 50%;
+   
+}
+
+.sessaotitleh h2{
+    color:#206efd;
+    font-size: 2rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    
+       
+}
+
+.sessaotitleh p{
+    color: white;
+    font-size: 1rem;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
 .conteiner{
     display: flex;
     justify-content: space-evenly;

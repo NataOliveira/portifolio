@@ -1,33 +1,35 @@
 .rodape{
-    background: linear-gradient(to bottom, #010b19, #0a1c2e);
-    text-align: right;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin-top: -8px;
-   
-   
+    padding: 2rem;
+    padding-inline: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+    backdrop-filter: blur(10%);
 }
 
 .rodape a{
-    font-size:1rem;
-    color: #ffffff;
-    font-weight: 700; 
-    text-decoration: none;
+ color: white;
+ text-decoration: none;
+}
+
+.icons{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    
     
 }
 
-
 .icongit{
-    width: 2rem;
-    height: 2rem;
-    fill: rgb(255, 255, 255);      /* cor interna */
+    width: 50px;
+    fill: rgb(255, 255, 255);
    
 }
 .iconwhats{
-    width: 2rem;
-    height: 1.6rem;
+    width: 35px;
+    
 }
 
 .icongit:hover{
