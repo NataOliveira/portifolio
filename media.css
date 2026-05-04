@@ -23,9 +23,12 @@
         line-height: 1;
         font-size: 3rem;
 }
-    .sessaotitle h2{
-        font-size: 1.5rem;
 
+    .sessaotitle h2{
+        font-size: 1.8rem;
+}
+    .sessaotitle2 h2{
+        font-size: 1.8rem;
 }
     .conteiner{
         width: 100vw;
@@ -76,11 +79,15 @@
 
     .sobre h1 {
         line-height: 1;
-        font-size: 2.2rem;
+        font-size: 2.5rem;
 }
     .sessaotitle h2{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
 }
+    .sessaotitle2 h2{
+        font-size: 1.8rem;
+}
+
 
    .cards{
         width: 95%;

@@ -1,4 +1,4 @@
-
+/* --- Section Sobre --- */
 .sobre{
     display: flex;
     justify-content: space-around;
@@ -19,16 +19,12 @@
     font-optical-sizing: auto;
     font-weight: 700;    
 }
-
 .sobre h2{
     color: white;
 }
-
 .sobrenome{
     color: #206efd;
 }
-   
-
 .sobre p{
     padding-top: 1rem;
     max-width: 50vw;
@@ -39,6 +35,19 @@
   
 }
 
+
+/* --- Conteiner Global --- */
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5%;
+}
+
+
+/* ---Titulos do Conteiner1 --- */
 .sessaotitle{
     padding-inline: 5%;
     display: flex;
@@ -48,7 +57,6 @@
     text-align: left; 
     gap: 2rem;
 }
-
 .sessaotitle h2{
     color:#206efd;
     font-size: 2rem;
@@ -56,7 +64,6 @@
     font-optical-sizing: auto;
        
 }
-
 .sessaotitle h3 a{
     text-decoration: none;
     background-color: transparent;
@@ -80,7 +87,6 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
-
 .sessaotitle p{
     color: white;
     font-size: 1rem;
@@ -90,7 +96,9 @@
 }
 
 
-.sessaotitleh{
+
+/* --- Titulos do Conteiner2 --- */
+.sessaotitle2{
     padding-inline: 5%;
     text-align: center; 
     gap: 2rem;
@@ -98,8 +106,7 @@
     padding-inline: 50%;
    
 }
-
-.sessaotitleh h2{
+.sessaotitle2 h2{
     color:#206efd;
     font-size: 2rem;
     font-family: "Eczar", serif;
@@ -107,23 +114,11 @@
     
        
 }
-
-.sessaotitleh p{
+.sessaotitle2 p{
     color: white;
     font-size: 1rem;
+    padding-inline: 20%;
     font-family: "Eczar", serif;
     font-optical-sizing: auto;
     text-align: center;
 }
-.conteiner{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: transparent;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding: 5%;
-}
-
-
-
-
