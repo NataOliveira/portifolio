@@ -1,12 +1,12 @@
 .rodape{
-    padding: 2rem;
-    padding-inline: 2rem;
     display: flex;
-    justify-content:space-between;
-    align-items: center;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center;    /* Opcional: centraliza os itens horizontalmente */
+    gap: 1rem;              /* Opcional: adiciona um espaço entre os itens */
+    
+    padding: 5% 2rem;      /* Simplificando o padding */
     width: 100%;
-    background-color: transparent;
-    backdrop-filter: blur(10%);
+    background-color: rgb(0, 0, 0);
 }
 
 .rodape a{
