@@ -13,21 +13,16 @@
  text-decoration: none;
 }
 
-.icons{
-    align-items: center;
-    display: flex;
-    gap: 2rem;
-    padding-top: 1rem;
-    
-    
+
+.info h2{
+    text-align: left;
+    font-size:1.5rem;
+    background: linear-gradient(90deg, #c026d3, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700; 
+    text-decoration: none;
 }
-
-.iconwhats{
-    width: 30px;
-    transition: 0.3s ease;
-}
-
-
 .info{
     text-align: left;
     font-size:1rem;
@@ -35,4 +30,22 @@
     font-weight: 700; 
     text-decoration: none;
 }
+
+
+
+.iconwhats{
+    width: 29px;
+}
+
+.icons{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    justify-content: center
+}
+
+
+
+
 
