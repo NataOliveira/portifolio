@@ -1,128 +1,96 @@
-   /*Tablet*/
-@media (max-width: 920px){ 
-    .navbar ul{
-        flex-direction: column;
-        line-height:1.1;
-        gap: 0.5rem;
-       
-}
-   
-    header img {
-        width: 7rem;   
-}
+/* Tablet */
+@media (max-width: 768px) {
 
-    .sessaotitle h3 a{
-        font-size: 1rem;
-}
+  /* --- Hero --- */
+  .headerdiv {
+    width: 90%;
+    }
 
-    .sobre h1 {
-        line-height: 1;
-        font-size: 3rem;
-}
-
-    .sessaotitle h2{
-        font-size: 1.8rem;
-}
-    .sessaotitle2 h2{
-        font-size: 1.8rem;
-}
-    .conteiner{
-        width: 100vw;
-        padding-top: 5%;
-        gap: 1rem;
-        display: flex;
-        flex-wrap: wrap;
+  h1 {
+    line-height: 0.9;
+    }
+ /* --- Cards Section Sobre --- */
+  .tituloSobre{
+    flex-wrap: wrap;
+    }
+   .fotoperfil{
+        width: 50%;
+    }
+  /* --- Cards Section Projetos --- */
+  
+    .conteinerprojetos {
         justify-content: center;
-   
-}
+        width: 100%;
+    }
 
-    .cards{
-        flex-grow: 0.8;
+    .cards {
+        flex: 1 1 100%;
+        width: 100%;
         height: auto;
-       
-    }
-
-    .cards{
-        display: flex;
     
-}
-
-    .cards a img{
-        width: 60%;
+    }
+    .descricaocard p {
+        color: transparent;
     }
 
+    .fotodiv{
+        content: url(imgs/cordel3.png);
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.8);
+    
+    }
 }
 
  /*Mobile*/ 
-@media (max-width: 480px){ 
-    .navbar ul{
-        line-height:1.1;
-        flex-direction: column;
-        gap: 0.3rem;
-       
-}
-    .sobre p{
-        max-width: 100vw;
-        color: white;
- 
-}
-    header img {
-        width: 7rem;   
-}
+@media (max-width: 414px){ 
+   
+    /*---Section Hero---*/
 
-    .sessaotitle h3 a{
-        font-size: 1rem;
-}
-
-    .sobre h1 {
-        line-height: 1;
-        font-size: 2.5rem;
-}
-    .sessaotitle h2{
-        font-size: 1.8rem;
-}
-    .sessaotitle2 h2{
-        font-size: 1.8rem;
-}
-
-
-   .cards{
-        width: 95%;
-        max-width: 35rem;
-        height: auto;
-    
-}
-    .conteiner{
+    .linksnav{
         display: flex;
-        gap: 1rem;
-        justify-content: center
+        flex-direction: column;
+    }
+    .headerdiv{
+        width: 80%;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+    .decricao{
+        font-size: 0.8rem;
+    }
+    .bt1{
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    .bt2{
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    /*---Section Sobre---*/
+    .fotoperfil{
+        width: 0;
+    }
+    .tituloSobre p{
+        text-align: center;
+    }
 
-    
-}
+     /*---Section Projetos---*/
+     .fotodiv{
+        content: url(imgs/cordel.png);
+        height: 100%;
+        width: 100%;
+        object-fit: cover
+    }
+
 
     .cardsh{
-        flex-wrap: nowrap;
-        gap: 1rem;
-        width: 9rem;
-
-}
-
-    .cardsh h2{
-        font-size: 1.1px;
-        text-align: left;
-}
-
-    .rodape{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        padding-inline: 0;
-        align-items: start;
-}
-
-    .icons{
-        align-items: end;
-       
+        width: 8rem;
     }
 }
+
