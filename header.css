@@ -3,10 +3,11 @@ header{
     padding-inline: 5%;
     padding-top: 20px;
     justify-content:space-between;
-    width: 95%;
+    width: 100%;
     align-items: center;
-    background-color: transparent;
-    backdrop-filter: blur(30%);
+    background-color: black;
+    box-shadow: 0px 12px 12px #000f30;
+   
    
 }
 /* --- Logo --- */
