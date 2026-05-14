@@ -56,7 +56,16 @@ nav{
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    font-weight: bold;  
+    font-weight: bold; 
+    transition: 0.3s; 
+}
+
+.logoN:hover{
+    background: linear-gradient(135deg, #22d3ee, #a855f7);
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    
 }
     
 .linksnav a{
