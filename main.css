@@ -20,13 +20,12 @@
     background-size: cover;
     background-attachment: fixed;
     
-    
 }
 
 .conteinerSobre{
     width: 100%;
     margin: 3rem auto;
-    box-shadow: 0px 0px 22px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.63);
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.24);
@@ -34,16 +33,35 @@
     gap: 2rem;
     
 }
+.descricaosobre{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
 
-.tituloSobre h2{
-    
-    background: linear-gradient(180deg, #c026d3, #22d3ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-    font-family: "poppins", sans-serif;
-    
-       
+.tituloSobre h2 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.tituloSobre h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
 }
 .tituloSobre p{
     color: white;
@@ -82,11 +100,24 @@
     padding: 5%;
 }
 .tituloHabilidades h2{
-    background: linear-gradient(180deg, #c026d3, #22d3ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 2rem;
-    font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  padding-bottom: 8px;
+}
+.tituloHabilidades h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
 }
 
 .tituloHabilidades p{
@@ -125,14 +156,25 @@
     gap: 2rem;
 }
 
-
 .tituloProjetos h2{
-    width: 100%;
-    background: linear-gradient(180deg, #c026d3, #22d3ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 2rem;
-    font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  padding-bottom: 8px;
+}
+.tituloProjetos h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
 }
 
 .tituloProjetos p{

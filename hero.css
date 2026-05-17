@@ -1,5 +1,6 @@
 
 .hero{
+    position: relative;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/sapace.jpg');
     background-size: cover;
@@ -20,64 +21,8 @@
     margin: 0 auto;
     padding: 0 20px;
     text-align: center;
-    z-index: 10;
 }
 
-.headerdiv{
-    width: 100%;;
-    align-content: center;
-    max-width: 800px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5rem;
-}
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.logo{
-    display: flex;
-    align-items: center; 
-    gap: 1rem;
-    font-size: 2rem;
-    font-weight: bold;
- }
-
-.logoN{
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #a855f7, #22d3ee);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    transition: 0.3s; 
-}
-
-.logoN:hover{
-    background: linear-gradient(135deg, #22d3ee, #a855f7);
-    transform: scale(1.1);
-    transition: 0.3s;
-    cursor: pointer;
-    
-}
-    
-.linksnav a{
-    color: white;
-    text-decoration: none;
-    margin-left: 40px;
-    font-size: 1rem;
-    transition: 0.3s;
-}
-    
-.linksnav a:hover{
-    color: #a855f7;
-}
 
 h1{
     font-size: 6.5rem;
