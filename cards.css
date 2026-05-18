@@ -35,6 +35,7 @@
     background: var(--cor-titulo);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-decoration: none;
     background-clip: text;
     position: relative;
     padding-bottom: 8px;
