@@ -36,7 +36,7 @@ h1{
 .subtitulo{
     font-size: 3.8rem;
     font-weight: 600;
-    background: linear-gradient(90deg, #c026d3, #22d3ee);
+    background: var(--bg-gradiente2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 0px;
@@ -57,7 +57,7 @@ h1{
 
 .bt1{
     padding: 18px 45px;
-    background: linear-gradient(90deg, #a855f7, #22d3ee);
+    background: var(--bg-gradiente2);
     color: white;
     border: none;
     border-radius: 100px;

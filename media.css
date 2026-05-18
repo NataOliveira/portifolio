@@ -69,14 +69,6 @@
         height: auto;
     }
    
-    .fotodiv{
-        content: url(imgs/cordel3.png);
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        filter: brightness(0.8);
-    }
-
      .info h2{
         font-size: 1rem;
     }

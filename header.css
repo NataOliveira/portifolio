@@ -1,7 +1,6 @@
 header{
     position: absolute;
     width: 100%;
-    margin-top: 20px;
     display: flex;
     background: transparent; 
     align-items: center;
@@ -17,7 +16,7 @@ header{
 .logoN {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  background: var(--bg-gradiente);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -29,7 +28,7 @@ header{
 }
 
 .logoN:hover{
-    background: linear-gradient(135deg, #22d3ee, #a855f7);
+    background: var(--bg-gradiente2);
     transform: scale(1.1);
     transition: 0.3s;
     cursor: pointer;

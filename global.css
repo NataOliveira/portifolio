@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background: #0a0a0f ;
+    background: var(--bg-color) ;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-f);
     overflow-x: hidden;
 }
 
