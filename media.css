@@ -171,6 +171,9 @@
         width: 8rem;
         transition: all 1s ease;
     }
+    .cardsh h2{
+        font-size: 0.8rem;
+    }
 
     /*---Section footer---*/
 
@@ -234,10 +237,13 @@
             width: 6rem;
             height: 6rem;
             transition: all 1s ease;
+            padding: 0 0;
+           
         }
 
         .cardsh h2 {
             font-size: 0.8rem;
+            padding-top: 1rem;
         }
 
         .tituloProjetos h2{
@@ -246,6 +252,7 @@
          .tituloProjetos p {
             font-size: 0.7rem;
         }
+     
 
         .cards {
             flex: 1 1 100%;
@@ -272,13 +279,12 @@
         .descricaocard h2 a::after {
          width: 90%;
          left: 5%;
-         
-         
+        }
+
+        .direitos p{
+            font-size: 0.5rem;
+         }
       
-    }
-
-
-
 
  }
 
