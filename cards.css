@@ -39,6 +39,7 @@
     background-clip: text;
     position: relative;
     padding-bottom: 8px;
+    
 }
 .descricaocard h2 a::after {
     content: '';
@@ -47,7 +48,8 @@
     left: 0;
     width: 120%;
     height: 3px;
-    background: var(--bg-gradiente2);
+    margin-bottom: 10px;
+    background: var(--bg-gradiente);
 }
 
 .cards p{
@@ -69,10 +71,6 @@
     filter: brightness(0.8);
 }
 
-.cards img:hover{
-    transition: all 0.5 ease;
-    transform: scale(1.1);
-}
 
 .cardsh{
     display: flex;

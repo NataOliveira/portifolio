@@ -156,6 +156,10 @@
         width: 100%;
         height: auto;
     }
+    
+    .descricaocard h2 a {
+        font-size: 1.3rem;
+    }
 
      .fotodiv{
         background-image: url(imgs/cordel3.png);
@@ -209,14 +213,14 @@
         }
 
         .descricaosobre h2{
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
         .descricaosobre p {
             font-size: 0.7rem;
         }
 
         .tituloHabilidades h2{
-             font-size: 1.5rem;
+             font-size: 1rem;
         }
          .tituloHabilidades p {
             font-size: 0.7rem;
@@ -237,7 +241,7 @@
         }
 
         .tituloProjetos h2{
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
          .tituloProjetos p {
             font-size: 0.7rem;
@@ -247,15 +251,31 @@
             flex: 1 1 100%;
             width: 100%;
             height: auto;
+            padding: 0;
         }   
         
+        .descricaocard h2 {
+            width: 100%;
+            text-align: center;
+    
+        }
         .descricaocard h2 a {
-            font-size: 1.5rem;
+            font-size: 1rem;
+            margin: 0;
+            width: 100%;
         }
        .descricaocard p{
-            font-size: 0.7rem;
+            display: none;
+            align-items: center;
         }
 
+        .descricaocard h2 a::after {
+         width: 90%;
+         left: 5%;
+         
+         
+      
+    }
 
 
 
