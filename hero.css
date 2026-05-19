@@ -3,6 +3,7 @@
     position: relative;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/sapace.jpg');
+    transition: all 0.5s ease;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
