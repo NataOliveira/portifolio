@@ -17,7 +17,11 @@
   .headerdiv {
     width: 90%;
     }
-    
+     
+    .hero{
+    background-attachment: scroll;
+    }
+
     .linksnav a {
      font-size: 0.8rem;
     }
@@ -29,6 +33,9 @@
     
      .subtitulo{
         font-size: 2rem;
+    }
+    .tituloSobre{
+        background-attachment: scroll;   
     }
 
     .decricao{

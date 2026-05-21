@@ -3,7 +3,6 @@
     position: relative;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/sapace.jpg');
-    transition: all 0.5s ease;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -19,8 +18,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 0 20px;
     text-align: center;
 }
 
@@ -39,8 +37,9 @@ h1{
     font-weight: 600;
     background: var(--bg-gradiente2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 0px;
+    background-clip: text;
+    color: transparent;
+    margin-top: 0;
 }
 
 .decricao{
@@ -88,8 +87,11 @@ h1{
 }
 
 .bt2:hover{ 
-    color: black;
+    background: white;
     transform: scale(1.1);
+}
+.bt2:hover a{
+    color: black;
 }
 
 .bt1 a{
@@ -101,7 +103,5 @@ h1{
     text-decoration: none;
     color: white;
 }
-   .bt2 a{
-    color: white;
-}
+  
    

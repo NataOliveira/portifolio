@@ -7,7 +7,6 @@
     margin: 8rem auto;
     padding: 0 20px;
     text-align: center;
-    
 }
 
 .tituloSobre{
@@ -17,7 +16,6 @@
     align-items: center;
     text-align: center; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('imgs/perfil2.png');
-    transition: all 0.5s ease;
     background-size: cover;
     background-attachment: fixed;
     
