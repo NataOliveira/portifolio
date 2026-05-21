@@ -19,7 +19,8 @@
     font-size:1.5rem;
     background: var(--bg-gradiente);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     font-weight: 700; 
     text-decoration: none;
 }
