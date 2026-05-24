@@ -9,39 +9,37 @@
     text-align: center;
 }
 
-.tituloSobre{
+.conteinerSobre{
     width: 100%;
     min-height: 40vh;
     display: flex;
     align-items: center;
-    text-align: center; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('imgs/perfil2.png');
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
-
-.conteinerSobre{
-    width: 100%;
-    margin: 3rem auto;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.63);
-    display: flex;
+    border-radius: 20px;
+    text-align: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.24);
-    flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     
 }
+.foto{
+    width: 50%;
+    height: 100%;
+}
+.foto img{
+    border-radius: 1%;
+    width: 100%;
+    height: auto;
+}
 .descricaosobre{
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
+    max-width: 49%;
 }
 
-.tituloSobre h2 {
+.descricaosobre h2 {
   font-size: 2rem;
   font-family: var(--font-f);
   display: inline-block;
@@ -53,19 +51,19 @@
   padding-bottom: 8px;
 }
 
-.tituloSobre h2::after {
+.descricaosobre h2::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 2.5px;
-  background: var(--bg-gradiente);
+  background: var(--bg-gradiente2);
 }
-.tituloSobre p{
+.descricaosobre p{
     color: white;
     font-size: 1rem;
-    padding-inline: 20%;
+    padding-inline: 10%;
     font-family: var(--font-f);
     text-align: left;
 }
@@ -92,6 +90,7 @@
 
 .conteinerhabilidades{
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
     background-color: transparent;
     flex-wrap: wrap;
@@ -116,7 +115,7 @@
   left: 0;
   width: 100%;
   height: 2.5px;
-  background: var(--bg-gradiente);
+  background: var(--bg-gradiente2);
 }
 
 .tituloHabilidades p{
@@ -172,7 +171,7 @@
     left: 0;
     width: 100%;
     height: 2.5px;
-    background: var(--bg-gradiente);
+    background: var(--bg-gradiente2);
 }
 
 .tituloProjetos p{

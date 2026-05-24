@@ -17,7 +17,7 @@
 .info h2{
     text-align: left;
     font-size:1.5rem;
-    background: var(--bg-gradiente);
+    background: var(--bg-gradiente2);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -26,7 +26,7 @@
 }
 .info{
     text-align: left;
-    font-size:1rem;
+  
     color: #ffffff;
     font-weight: 700; 
     text-decoration: none;

@@ -1,15 +1,16 @@
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
-    justify-content:start;
+    justify-content: flex-start; 
     width: 23rem;
-    height: 27rem;
-    border-radius: 1rem; 
+    min-height: 27rem;         
+    border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     overflow: hidden;
     transition: all 0.5s ease;
     padding: 20px;
+    box-sizing: border-box;  
 }
    
 
@@ -20,11 +21,15 @@
     transition: all 0.5s ease;
 }
 
+.fotoCard{
+    height: auto;
+}
+
 .descricaocard{
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 100%;
+    height: 50%;
 }
 
 .cards h2 a {
@@ -49,7 +54,7 @@
     width: 120%;
     height: 3px;
     margin-bottom: 10px;
-    background: var(--bg-gradiente);
+    background: var(--bg-gradiente2);
 }
 
 .cards p{
@@ -62,11 +67,10 @@
 
 
 
-.cards img{
+.fotoCard img{
     position: relative;
     border-radius: 2%;
     width: 100%;
-    transition: all 0.5 ease;
     cursor: pointer;
     filter: brightness(0.8);
 }
