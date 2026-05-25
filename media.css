@@ -64,14 +64,14 @@
     }
 
     .bt2{
-         padding: 1rem 2rem;
+        padding: 1rem 2rem;
         font-size: 0.8rem;
     }
 
 /*------------------------------------------------- Section sobre ---*/
 
     .conteinerSobre{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/perfil2.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/perfil2.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -178,7 +178,7 @@
     }
   
 /*-------------------------------------------------Section Projetos---*/
-
+BT
      .cards {
         flex: 1 1 100%;
         width: 100%;

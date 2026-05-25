@@ -7,15 +7,15 @@ header{
     justify-content: center;  
     z-index: 1;
     align-content: center;
-    margin-top: 10px;
+    padding-block: 20px;
     background-color: rgba(0, 0, 0, 0.286);
     
    
 }  
  header::after {
-  content: '';
+    content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
     width: 100%;
     height: 3px;
@@ -29,6 +29,7 @@ header{
   height: 50px;
   background: var(--bg-gradiente2);
   border-radius: 12px;
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +40,7 @@ header{
 }
 
 .logoN:hover{
-    transform: scale(1.2) rotate(180deg);
+    transform: scale(1.2);
     transition: 0.3s;
     cursor: pointer;
     filter: brightness(1.3);
@@ -86,4 +87,8 @@ nav a::after {
 
 nav a:hover::after {
   width: 100%;
+}
+
+.logoN:hover::after{
+    width: 0;
 }
