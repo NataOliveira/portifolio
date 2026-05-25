@@ -13,7 +13,7 @@
 
     .conteiner{
         flex-direction: column-reverse;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .spline{
@@ -26,19 +26,15 @@
 
 }
 
-/* Tablet */
+ /*===================================================== Tablet ==========================================================*/ 
 @media (min-width: 415px) and (max-width: 768px)  {
 
     *{
     background-attachment: scroll;
     }
     
-    
-  /* --- Hero --- */
-  .headerdiv {
-    width: 90%;
-    }
-     
+/*------------------------------------------------- Hero ---*/
+
     .hero{
     background-attachment: scroll;
     }
@@ -51,19 +47,6 @@
         font-size: 5rem;
         line-height: 0.9;
     }
-
-    /*-------sobre---------*/
-
-    .conteinerSobre{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/perfil2.png');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    }
-    .foto{
-        display: none;
-    }
-
      .subtitulo{
         font-size: 2rem;
     }
@@ -85,8 +68,22 @@
         font-size: 0.8rem;
     }
 
+/*------------------------------------------------- Section sobre ---*/
 
-     /* --- Cards Section Projetos --- */
+    .conteinerSobre{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.885)), url('imgs/perfil2.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    .foto{
+        display: none;
+    }
+
+   
+
+
+/*-------------------------------------------------Section projetos---*/
   
     .conteinerprojetos {
         justify-content: center;
@@ -108,10 +105,10 @@
     }
 
 }
- /*Mobile*/ 
+ /*=====================================================Mobile==========================================================*/ 
 @media (max-width: 414px){ 
    
-    /*---Section Hero---*/
+/*-------------------------------------------------header---*/
 
     header{
         width: 100%;
@@ -142,7 +139,8 @@
         font-size: 0.9rem;
         margin: 0 10px;
     }
-
+/*-------------------------------------------------Hero---*/
+  
     h1{
         font-size: 3.5rem;
     }
@@ -173,13 +171,13 @@
         font-size: 0.8rem;
     }
 
-    /*---Section Sobre---*/
+/*--------------------------------------------------Section Sobre---*/
 
     .sectionSobre{
         margin: 2rem auto;
     }
   
-     /*---Section Projetos---*/
+/*-------------------------------------------------Section Projetos---*/
 
      .cards {
         flex: 1 1 100%;
@@ -205,7 +203,7 @@
         font-size: 0.8rem;
     }
 
-    /*---Section footer---*/
+/*-------------------------------------------------Section footer---*/
 
     .info h2{
         font-size: 1rem;
@@ -216,7 +214,7 @@
     }
     
 }
-
+ /*===================================================== small Screen ==========================================================*/ 
 @media (max-width: 240px){
 
         .linksnav a {
