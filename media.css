@@ -176,6 +176,12 @@
     .sectionSobre{
         margin: 2rem auto;
     }
+    .conteinerSobre{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(imgs/perfil2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
   
 /*-------------------------------------------------Section Projetos---*/
 BT
