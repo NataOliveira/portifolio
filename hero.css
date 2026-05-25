@@ -35,10 +35,9 @@
 
 h1{
     font-size: 4rem;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1;
-    letter-spacing: -4px;
-    text-shadow: 0 0  3px var(--a-color);
+    letter-spacing: 5px;
     transition: all 1s ease;
 }
 
