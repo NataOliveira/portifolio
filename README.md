@@ -1,20 +1,5 @@
 # 🌐 Natan Oliveira | Full Stack Developer Portfolio
 
-<p align="center">
-  <img src="imgs/perfil2.png" alt="Natan Oliveira" width="150" style="border-radius: 50%"/>
-</p>
-
-<p align="center">
-  <strong>"Transformo código em receita. Ideias em produto."</strong>
-</p>
-
-<p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a> •
-  <a href="#-tecnologias-e-ferramentas">Tecnologias</a> •
-  <a href="#-projetos-em-destaque">Projetos</a> •
-  <a href="#-características-técnicas">Destaques Técnicos</a> •
-  <a href="#-contato">Contato</a>
-</p>
 
 ---
 
