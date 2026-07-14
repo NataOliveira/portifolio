@@ -1,4 +1,3 @@
-
 /*Bug Card Dekstop*/
 @media (max-width: 907px) {
 
@@ -43,7 +42,7 @@
      font-size: 0.8rem;
     }
 
-    h1 {
+    .h1natan {
         font-size: 5rem;
         line-height: 0.9;
     }
@@ -79,9 +78,6 @@
     .foto{
         display: none;
     }
-
-   
-
 
 /*-------------------------------------------------Section projetos---*/
   
@@ -119,7 +115,8 @@
     }
    
   .logoN{
-        display: none;
+        width: 6rem;
+
     }
 
     nav{
@@ -141,7 +138,7 @@
     }
 /*-------------------------------------------------Hero---*/
   
-    h1{
+    .h1natan{
         font-size: 3.5rem;
     }
     .descricaosobre{
@@ -184,7 +181,7 @@
     }
   
 /*-------------------------------------------------Section Projetos---*/
-BT
+
      .cards {
         flex: 1 1 100%;
         width: 100%;
@@ -220,14 +217,14 @@ BT
     }
     
 }
- /*===================================================== small Screen ==========================================================*/ 
+ /*===================================================== Tela Pequena ==========================================================*/ 
 @media (max-width: 240px){
 
         .linksnav a {
             font-size: 0.6rem;
         }
     
-        h1{
+        .h1natan{
             font-size: 2.5rem;
         }
     
@@ -249,16 +246,13 @@ BT
             font-size: 0.6rem;
         }
 
-        .descricaosobre h2{
+        .titulo-secao{
             font-size: 1rem;
         }
         .descricaosobre p {
             font-size: 0.7rem;
         }
 
-        .tituloHabilidades h2{
-             font-size: 1rem;
-        }
          .tituloHabilidades p {
             font-size: 0.7rem;
         }
@@ -280,9 +274,6 @@ BT
             padding-top: 1rem;
         }
 
-        .tituloProjetos h2{
-            font-size: 1rem;
-        }
          .tituloProjetos p {
             font-size: 0.7rem;
         }
@@ -318,7 +309,4 @@ BT
         .direitos p{
             font-size: 0.5rem;
          }
-      
-
  }
-

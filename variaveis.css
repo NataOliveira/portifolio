@@ -1,11 +1,11 @@
 :root{
 
---bg-color: #000000f6;
---font-f:'Bebas Neue', sans-serif;
+--bg-color: #000;
+--font-f: "Poppins", sans-serif;
 --bg-gradiente2:linear-gradient(135deg,#2C88C4,#45DD3E);
---a-color: #45DD3E;
+--bg-gradiente2i:linear-gradient(135deg,#45DD3E,#2C88C4);
+--a-color: #3edd5e;
 --cor-titulo: white;
 --shadow-box-cards: 0px 0px 2px 0.1px rgba(255, 254, 254, 0.4);
-
 
 }
