@@ -9,7 +9,7 @@ header{
     padding-block: 5px;
 }  
 
-.logoN {
+.gitbutton {
   width: 7rem;
   height: 2rem;
   background: var(--bg-gradiente2);
@@ -25,14 +25,14 @@ header{
   position: relative;
 }
 
-.logoN:hover{
+.gitbutton:hover{
     background: var(--bg-gradiente2i);
     transform: scale(1.1);
     cursor: pointer;
     filter: brightness(1.3);
     
 }
-nav{
+.navbar{
     justify-content: space-between;
     width: 70%;
     display: flex;
@@ -44,7 +44,7 @@ nav{
 
 }
 
-nav li {
+.navbar li {
     list-style: none;
     display: inline-block;
 }

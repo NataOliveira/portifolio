@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="imgs/favicon-16x16.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js" defer></script>
     <title>Natan Oliveira Full Stack Developer</title>
 
 </head>
@@ -14,12 +15,13 @@
     <header>
             <nav class="navbar">         
                 <ul class="linksnav">
+                    <button onclick="tema()" >theme</button>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#projetos">Projetos</a></li> 
                     <li><a href="#contato">Contato</a></li> 
                 </ul>
-                <a class="logoN" href="">Meu Github</a>
+                <a class="gitbutton" href="">Meu Github</a>
              </nav> 
          
     </header>
@@ -41,20 +43,23 @@
                     </div>
                 </div>
                  <div class="spline">
-                        <script fetchpriority="high" type="module" src="https://unpkg.com/@splinetool/viewer@1.12.95/build/spline-viewer.js"></script>
-                        <spline-viewer 
-  fetchpriority="high" 
-  url="https://prod.spline.design/qU7DDVpo3KmIWAQb/scene.splinecode"
-  events-target="global">
-</spline-viewer>
-                    </div>
-             </div>
+                    <script fetchpriority="high" type="module" src="https://unpkg.com/@splinetool/viewer@1.12.98/build/spline-viewer.js"></script>
+                    
+                    <spline-viewer class="splineviewer spline-escura" fetchpriority="high" 
+                        url="https://prod.spline.design/qU7DDVpo3KmIWAQb/scene.splinecode" 
+                        events-target="global"></spline-viewer>
+                    
+                    <spline-viewer class="splineviewer spline-clara" fetchpriority="high" 
+                        url="https://prod.spline.design/8sMyrodsZ6kGssx4/scene.splinecode" 
+                        events-target="global" style="display: none;"></spline-viewer>
+                </div>
+             </div> 
                
         </section>
         <section id="sobre" class="sectionSobre">
             <div class="conteinerSobre">
                 <div class="foto">
-                    <img src="imgs/perfil2.png" alt="">
+                    <img src="imgs/perfil2.jpg" alt="">
                 </div>
                 <div class="descricaosobre">
                     <h2 class="titulo-secao">Quem eu Sou ? </h2> 
@@ -95,7 +100,6 @@
                 </div>
             </div>
         
-
         </section>
 
         <section id="projetos" class="sectionProjetos">
@@ -164,7 +168,6 @@
        
         </div>
     
-       
     </footer>
 
 </body>
