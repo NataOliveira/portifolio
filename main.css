@@ -24,6 +24,7 @@
 /* ---Sobre --- */
 
 .sectionSobre{
+    scroll-margin-top: 90px;
     display: flex;
     flex-direction: column;
     max-width: 1500px;
@@ -40,7 +41,6 @@
     border-radius: 20px;
     text-align: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.24);
     gap: 1rem;
 }
 
@@ -50,8 +50,8 @@
 }
 
 .foto img{
-    border-radius: 10%;
-    width: 100%;
+    border-radius: 90%;
+    width: 70%;
     height: auto;
 }
 
@@ -61,11 +61,11 @@
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
-    max-width: 47%;
+    max-width: 50%;
 }
 
 .descricaosobre p{
-    color: white;
+    color: var(--cor-letras);
     font-size: 1rem;
     padding-inline: 10%;
     font-family: var(--font-f);
@@ -75,6 +75,7 @@
 /* ---Habilidades --- */
 
 .sectionHabilidades{
+    scroll-margin-top: 90px;
     display: flex;
     flex-direction: column;
     max-width: 1500px;
@@ -112,6 +113,7 @@
 /* ---Projetos --- */
 
 .sectionProjetos{
+    scroll-margin-top: 90px;
     display: flex;
     justify-content: center;
     flex-direction: column;
