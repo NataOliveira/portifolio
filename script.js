@@ -1,3 +1,6 @@
+
+
+/*-Funcão Tema--*/
 function tema(){
     const corFundo = getComputedStyle(document.body).backgroundColor;
     const splineEscura = document.querySelector(".spline-escura");
@@ -14,12 +17,31 @@ function tema(){
     else{
         document.documentElement.removeAttribute('tema');
         document.querySelector(".divBtnTema").style.flexDirection = "row"; 
-        document.querySelector(".spanBtn").innerHTML = '⏾'
+        document.querySelector(".spanBtn").innerHTML = '­­⏾'
         splineClara.style.display = "none";
         splineEscura.style.display = "block";
     }
 }
 
 
+/*Função animação Section Sobre*/
 
+document.addEventListener("DOMContentLoaded", () => {
+    const containerSobre = document.querySelector('.conteinerSobre');
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+           
+            if (entry.isIntersecting) {
+                containerSobre.classList.add('visivel');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+
+  
+    observer.observe(containerSobre);
+});
    
