@@ -23,6 +23,34 @@ function tema(){
     }
 }
 
+/*Botão Menu*/
+
+const menu = document.querySelector(".navbar")
+const btnTema = document.querySelector(".divBtnTema")
+const linksNav = document.querySelector(".linksnav")
+const logo = document.querySelector(".logo")
+document.querySelector(".btnMenu").addEventListener('click', () =>{
+    menu.classList.toggle('ativo');
+    btnTema.classList.toggle('ativo');
+    linksNav.classList.toggle('ativo');
+    logo.classList.toggle('ativo');
+
+document.querySelector(".linksnav.ativo").addEventListener('click', () =>{
+    menu.classList.remove('ativo');
+    btnTema.classList.remove('ativo');
+    linksNav.classList.remove('ativo');
+    logo.classList.remove('ativo');
+})
+
+document.querySelector(".logo.ativo").addEventListener('click', () =>{
+    menu.classList.remove('ativo');
+    btnTema.classList.remove('ativo');
+    linksNav.classList.remove('ativo');
+    logo.classList.remove('ativo');
+})
+    
+})  
+
 
 /*Função animação Section Sobre*/
 
