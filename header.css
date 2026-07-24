@@ -138,7 +138,7 @@ header {
 }
 
 .divBtnTema {
-  display: flex;
+  display: none;
   align-items: center;
   position: relative;
   cursor: pointer;
