@@ -16,7 +16,7 @@ header {
   align-items: center;
   width: 85%;
   max-width: 850px;
-  padding: 10px 24px;
+  padding: 6px 15px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   backdrop-filter: blur(12px);
@@ -31,7 +31,7 @@ header {
   height: 60vh;
   transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
   align-items: start; 
-  background: linear-gradient(rgba(247, 245, 245, 0.3), rgba(159, 159, 159, 0.42)), var(--card-bg);
+  background: linear-gradient(rgba(247, 245, 245, 0.3), rgba(27, 27, 27, 0.672)), var(--card-bg);
   
 }
 
@@ -80,7 +80,7 @@ header {
   width: 100%;
   height: 50%;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .linksnav.ativo a{
