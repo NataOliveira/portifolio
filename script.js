@@ -93,4 +93,23 @@ document.addEventListener("DOMContentLoaded", () => {
   
     observer.observe(containerSobre);
 });
-   
+
+
+
+const myObserver = new IntersectionObserver((entries) =>{
+
+    entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('show')
+        }else{
+            entry.target.classList.remove('show')
+        }
+    })
+
+})
+
+const elements = document.querySelectorAll(".hidden")
+const elements2 = document.querySelectorAll(".hidden2")
+
+elements.forEach((element) => {myObserver.observe(element)})
+elements2.forEach((element2) => {myObserver.observe(element2)})

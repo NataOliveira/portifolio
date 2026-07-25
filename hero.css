@@ -28,7 +28,7 @@
 }
 
 .h1natan {
-    font-size: clamp(1.8rem, 5vw + 1rem, 3rem);
+    font-size: clamp(1.8rem, 5vw + 1rem, 4rem);
     font-weight: 600;
     line-height: 1;
     letter-spacing: 5px;
@@ -101,8 +101,7 @@
     border: 1px solid transparent;
     border-radius: 100px;
     background-image: 
-        linear-gradient(var(--box-color), #121212), 
-        var(--bg-gradiente2);
+    linear-gradient(var(--box-color), #121212), var(--bg-gradiente2);
     background-origin: border-box;
     background-clip: padding-box, border-box;
 }
