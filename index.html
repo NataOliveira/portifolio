@@ -13,19 +13,26 @@
 <body>
      
     <header>
-        <div onclick="tema()" class="divBtnTema">
-            <div class="btnTema"></div>
-            <span class="spanBtn" style="padding: 5px;">⏾</span>
-        </div>
+        
         <nav class="navbar">   
 
-            <a class="logo" href="#hero" rel="noopener noreferrer">Natan.O</a>
+            <a class="logo" href="#hero" rel="noopener noreferrer">N.Dev</a>
 
             <ul class="linksnav">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li> 
-                <li><a href="#contato">Contato</a></li>    
+                <li><a href="#contato">Contato</a></li> 
+                <div onclick="tema()" class="divBtnTema">
+                    <div class="btnTema"></div>
+                    <span class="spanBtn" style="padding: 5px;">⏾</span>
+                </div>
+
+                <div onclick="tema()" class="divBtnTema divBtnTemaMobile">
+                    <div class="btnTema btnTemaMobile"></div>
+                    <span class="spanBtn spanBtn" >⏾</span>
+                </div>
+                   
             </ul>
             <div id="btnMenu" class="btnMenu">
                     <div class="linha"></div>
@@ -40,7 +47,7 @@
            <div  class="conteiner">
                 <div class="herotitle">
                     <div>
-                        <h1 class="h1natan">NATAN OLIVEIRA</h1>
+                        <h1 class="h1natan"></h1>
                         <p class="subtitulo">FULL STACK DEVELOPER</p>
                         <p class="decricao">Transformo código em receita. Ideias em produto.</p>
                     </div>    
@@ -111,6 +118,10 @@
                     <img src="imgs/ferramentas/330px-Git_format.png" alt="Git e Github">
                     <h2>Git/Github</h2>   
                 </div>
+                <div class="cardsHabilidade">
+                    <img src="imgs/ferramentas/postgre.png" alt="PostgreSQL">
+                    <h2>PostgreSQL</h2>   
+                </div>
                
             </div>
         
@@ -168,6 +179,15 @@
                     <div class="descricaocard">
                         <h2><a target="_blank" href="https://nataoliveira.github.io/Calculadora/">calculadora</a></h2>
                         <p>Uma calculadora simples desenvolvida com HTML e CSS para praticar a estrutura de botões e o alinhamento do layout. Possui um design limpo e organizado.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="fotoCard">
+                        <a target="_blank" class="fotoProjeto" href="https://nataoliveira.github.io/API-Use-Case/"><img src="imgs/projetos/Api use case.png" alt="API Use Case"></a>
+                    </div>
+                    <div class="descricaocard">
+                        <h2><a target="_blank" href="https://nataoliveira.github.io/API-Use-Case/">API Use Case</a></h2>
+                        <p>Projeto desenvolvido para praticar o consumo de APIs utilizando JavaScript, HTML5 e CSS3.</p>
                     </div>
                 </div>
                               

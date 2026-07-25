@@ -51,10 +51,7 @@
      font-size: 0.8rem;
     }
 
-    .h1natan {
-        font-size: 4rem;
-        line-height: 0.9;
-    }
+    
      .subtitulo{
         font-size: 2rem;
     }
@@ -110,7 +107,7 @@
 
 }
  /*=====================================================Mobile==========================================================*/ 
-@media (max-width: 530px){ 
+@media (max-width: 540px){ 
    
 /*-------------------------------------------------header---*/
 
@@ -123,22 +120,36 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
-     
 
     .btnMenu{
         display: flex;
     }
     
    .linksnav {
-    display: none;
+        display: none;
    }
-    
+
+   .divBtnTema{
+        display: none;
+   }
+
+   .divBtnTemaMobile{
+        display: flex;
+        width: 4rem;
+        height: 3rem;
+        margin: 0;
+   }
+   .btnTemaMobile{
+        display: flex;
+        
+    }
+    .spanBtn{
+        padding: 0;
+        display: flex;
+        right: 12px;
+    }
 /*-------------------------------------------------Hero---*/
   
-    .h1natan{
-        font-size: 2rem;
-
-    }
     .descricaosobre{
         width: 100%;
         max-width: 100%

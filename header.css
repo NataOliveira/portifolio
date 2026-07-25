@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 95%;
   max-width: 850px;
   padding: 6px 15px;
   background: var(--card-bg);
@@ -27,8 +27,8 @@ header {
 }
 
 .navbar.ativo {
-  width: 90%;
-  height: 60vh;
+  width: 95%;
+  height: 70vh;
   transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
   align-items: start; 
   background: linear-gradient(rgba(247, 245, 245, 0.3), rgba(27, 27, 27, 0.672)), var(--card-bg);
@@ -80,7 +80,7 @@ header {
   width: 100%;
   height: 50%;
   align-items: center;
-  margin-top: 10%;
+  justify-content: center
 }
 
 .linksnav.ativo a{
@@ -140,12 +140,12 @@ header {
 .divBtnTema {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: relative;
   cursor: pointer;
-  width: 3.4rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 1.8rem;
   padding: 10px 24px;
-  margin-right: 10px;
   box-sizing: border-box;
   background: var(--box-color);
   border: 1px solid var(--card-border);
@@ -154,6 +154,7 @@ header {
 }
 .divBtnTema.ativo{
   display: none;
+  
 }
 .divBtnTema:hover {
   border-color: var(--card-border-hover);
@@ -161,14 +162,28 @@ header {
 
 .btnTema {
   position: absolute;
-  left: 4px;
+  left: 5px;
   width: 1.3rem;
-  height: 80%;
+  height: 90%;
   border-radius: 22px;
   background-color: var(--btn-tema-bg);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   transform: translateX(var(--btn-tema-deslocamento));
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s ease;
+ 
+}
+
+.divBtnTemaMobile{
+  display: None;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.btnTemaMobile{
+  display: None;
+}
+.spanBtn{
+  display: None;
+  font-size: 30px;
 }
 
 .spanBtn {

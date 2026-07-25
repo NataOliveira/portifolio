@@ -51,6 +51,27 @@ document.querySelector(".logo.ativo").addEventListener('click', () =>{
     
 })  
 
+/* animação de escrever do h1 */
+
+const texto = "Natan Oliveira";
+const h1 = document.querySelector(".h1natan");
+let i = 0;
+
+function digitar() {
+    if (i < texto.length) {
+        h1.textContent += texto.charAt(i);
+        i++; // <- faltava isso
+
+        let delay = 60 + Math.random() * 90;
+
+        if (texto.charAt(i - 1) === ' ') delay += 100;
+        if (['.', ',', '!', '?'].includes(texto.charAt(i - 1))) delay += 200;
+
+        setTimeout(digitar, delay);
+    }
+}
+digitar();
+
 
 /*Função animação Section Sobre*/
 
