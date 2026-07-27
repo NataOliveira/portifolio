@@ -1,4 +1,4 @@
-/*Cards Habilidade*/
+/* --- Cards Habilidade --- */
 .cardsHabilidade {
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 
 .cardsHabilidade h2 {
   width: 100%;
-  font-size: 100%;
+  font-size: 1rem;
   font-family: var(--font-f);
   text-align: center;
   color: var(--card-text);
@@ -47,13 +47,12 @@
   box-shadow: var(--card-hover-shadow);
 }
 
-/*Cards Projetos*/
+/* --- Cards Projetos --- */
 .cards {    
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; 
-  width: 23rem;
-  min-height: 27rem;         
   padding: 20px;
   box-sizing: border-box;  
   border-radius: 1rem;
@@ -69,6 +68,7 @@
               background-color 0.4s ease;
 }
 
+
 .cards:hover {
   transform: translateY(-6px) scale(1.01);
   border-color: var(--card-border-hover);
@@ -77,18 +77,15 @@
 }
 
 .fotoCard {
-  width: 100%;
   height: auto;
   overflow: hidden;
   border-radius: 0.5rem;
 }
 
 .fotoCard img {
-  display: block;
   width: 100%;
   height: auto;
-  filter: brightness(0.8);
-  transition: filter 0.3s ease, transform 0.4s ease;
+  display: block;
 }
 
 .cards:hover .fotoCard img {
@@ -108,7 +105,7 @@
   display: inline-block;
   position: relative;
   padding-bottom: 8px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: var(--font-f);
   text-decoration: none;
   background: var(--cor-titulo);
@@ -135,9 +132,83 @@
 
 .cards p {
   color: var(--cor-letras); 
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-family: var(--font-f);
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 0.5rem 0 0 0;
+  flex-grow: 1;
 }
+
+/* Tags do Projeto */
+.tagsProjeto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.tagsProjeto span {
+  background-color: var(--box-color);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  border: 1px solid var(--card-border);
+  transition: all 0.3s ease;
+}
+
+.tagsProjeto span:hover {
+  background-color: var(--a-color);
+  color: var(--cor-letras);
+  border-color: var(--a-color);
+  transform: translateY(-2px);
+}
+
+/* Botões do Projeto */
+.botoesProjeto {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btnProj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btnProj.github {
+  background: var(--box-color);
+  color: #fff;
+  border: 1px solid var(--card-border);
+}
+
+.btnProj.github:hover {
+  background: var(--card-border);
+  border-color: var(--card-border-hover);
+  transform: translateY(-3px);
+}
+
+.btnProj.demo {
+  background: var(--bg-gradiente2);
+  color: var(--bg-color);
+}
+
+.btnProj.demo:hover {
+  background: var(--bg-gradiente2i);
+  box-shadow: 0 5px 15px rgba(62, 221, 94, 0.3);
+  transform: translateY(-3px);
+} 
+

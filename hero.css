@@ -82,8 +82,8 @@
     font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s;
-}
+
+    }
 
 .bt1:hover{
     background: var(--bg-gradiente2i);
@@ -97,7 +97,6 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
-    transition: all 0.3s ease;
     border: 1px solid transparent;
     border-radius: 100px;
     background-image: 
@@ -112,3 +111,9 @@
     color: black;
 
 }
+
+.bt1, .bt2{
+    visibility: hidden;
+    offset-distance: 0;
+}
+

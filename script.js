@@ -74,42 +74,109 @@ digitar();
 
 
 /*Função animação Section Sobre*/
+window.sr =ScrollReveal({reset: true, distance: '60px'});
 
-document.addEventListener("DOMContentLoaded", () => {
-    const containerSobre = document.querySelector('.conteinerSobre');
+//--------HERO-Animation----------------
 
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-           
-            if (entry.isIntersecting) {
-                containerSobre.classList.add('visivel');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, {
-        threshold: 0.2
-    });
-
-  
-    observer.observe(containerSobre);
-});
-
-
-
-const myObserver = new IntersectionObserver((entries) =>{
-
-    entries.forEach((entry) =>{
-        if(entry.isIntersecting){
-            entry.target.classList.add('show')
-        }else{
-            entry.target.classList.remove('show')
-        }
-    })
-
+sr.reveal('.subtitulo', {
+    duration:3000,
+    rotate: {x: 0, y:-100, z: 0}
+})
+sr.reveal('.bt1', {
+    duration:3000,
+    origin: 'top',
+    
+})
+sr.reveal('.bt2', {
+    duration:3000,
+    origin: 'right',
+    rotate: {x: 20, z: 20}, 
 })
 
-const elements = document.querySelectorAll(".hidden")
-const elements2 = document.querySelectorAll(".hidden2")
+//---------Sobre-Animation-----
 
-elements.forEach((element) => {myObserver.observe(element)})
-elements2.forEach((element2) => {myObserver.observe(element2)})
+sr.reveal('.foto', {
+    duration:2000,
+    origin: 'left',
+    
+})
+sr.reveal('.descricaosobre', {
+    duration:2000,
+    origin: 'rigth',
+   
+    
+})
+
+
+
+//---------Habilidades-Animation-----
+
+sr.reveal('.ch1',{
+    duration:3000,
+    origin: 'bottom',
+    delay: 100,
+    
+})
+sr.reveal('.ch2',{
+    duration:3000,
+    origin: 'bottom',
+    delay: 300,
+   
+})
+sr.reveal('.ch3',{
+    duration:3000,
+    origin: 'bottom',
+    delay: 500,
+    
+})
+sr.reveal('.ch4',{
+    duration:3000,
+    origin: 'bottom',
+    delay: 700,
+    
+})
+sr.reveal('.ch5',{
+    duration:3000,
+    origin: 'bottom',
+    delay: 900,
+    
+})
+sr.reveal('.ch6',{
+    duration:3000,
+    origin: 'bottom',
+    delay: 1100,
+    
+})
+
+
+//---------Carrosel-Projetos-----
+
+const swiperProjetos = new Swiper(".swiper", { 
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 24,
+  grabCursor: true,
+  observer: true,
+  observeParents: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: '.swiper-button-prev',
+  },
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 24,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 32,
+    },
+  },
+});
