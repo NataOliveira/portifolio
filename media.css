@@ -11,7 +11,7 @@
 @media (max-width: 1050px) {
 
     .conteiner{
-        flex-direction: column-reverse;
+        
         gap: 1rem;
     }
 
@@ -113,7 +113,7 @@
 
     header{
         width: 100%;
-        padding: 30px 10px;
+       
     }
     .navbar{
         width: 90%;
@@ -223,6 +223,22 @@
     .info{
         font-size: 0.6rem;
     }
+
+    .icons{
+        width: 90px;
+    }
+    .octicon{
+        width: 27px;
+    }
+    .iconwhats {
+        width: 25px;
+    }
+    .icons{
+        gap: 1rem;
+        margin : 0;
+        padding: 0;
+    }
+
  }
 
  /*===================================================== Tela Pequena ==========================================================*/ 

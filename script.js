@@ -1,5 +1,4 @@
 
-
 /*-Funcão Tema--*/
 function tema(){
     const corFundo = getComputedStyle(document.body).backgroundColor;
@@ -25,34 +24,32 @@ function tema(){
 
 /*Botão Menu*/
 
-const menu = document.querySelector(".navbar")
-const btnTema = document.querySelector(".divBtnTema")
-const linksNav = document.querySelector(".linksnav")
-const logo = document.querySelector(".logo")
-document.querySelector(".btnMenu").addEventListener('click', () =>{
-    menu.classList.toggle('ativo');
-    btnTema.classList.toggle('ativo');
-    linksNav.classList.toggle('ativo');
-    logo.classList.toggle('ativo');
+const menu = document.querySelector(".navbar");
+const btnTema = document.querySelector(".divBtnTema");
+const linksNav = document.querySelector(".linksnav");
+const logo = document.querySelector(".logo");
+const btnMenu = document.querySelector(".btnMenu");
 
-document.querySelector(".linksnav.ativo").addEventListener('click', () =>{
-    menu.classList.remove('ativo');
-    btnTema.classList.remove('ativo');
-    linksNav.classList.remove('ativo');
-    logo.classList.remove('ativo');
-})
 
-document.querySelector(".logo.ativo").addEventListener('click', () =>{
-    menu.classList.remove('ativo');
-    btnTema.classList.remove('ativo');
-    linksNav.classList.remove('ativo');
-    logo.classList.remove('ativo');
-})
-    
-})  
+function fecharMenu() {
+  menu.classList.remove('ativo');
+  btnTema.classList.remove('ativo');
+  linksNav.classList.remove('ativo');
+  logo.classList.remove('ativo');
+}
+btnMenu.addEventListener('click', () => {
+  menu.classList.toggle('ativo');
+  btnTema.classList.toggle('ativo');
+  linksNav.classList.toggle('ativo');
+  logo.classList.toggle('ativo');
+});
+
+
+linksNav.addEventListener('click', fecharMenu);
+logo.addEventListener('click', fecharMenu);
+
 
 /* animação de escrever do h1 */
-
 const texto = "Natan Oliveira";
 const h1 = document.querySelector(".h1natan");
 let i = 0;
@@ -73,7 +70,7 @@ function digitar() {
 digitar();
 
 
-/*Função animação Section Sobre*/
+/*Função de animação Section Sobre*/
 window.sr =ScrollReveal({reset: true, distance: '60px'});
 
 //--------HERO-Animation----------------
@@ -144,7 +141,7 @@ sr.reveal('.ch5',{
 sr.reveal('.ch6',{
     duration:3000,
     origin: 'bottom',
-    delay: 1100,
+    delay: 1000,
     
 })
 
@@ -153,6 +150,12 @@ sr.reveal('.ch6',{
 
 const swiperProjetos = new Swiper(".swiper", { 
   loop: true,
+  speed: 5000,
+  autoplay:{
+    delay:0,
+    disableOninteraction: false,
+    pauseOnMouseEnter: true,
+  },
   slidesPerView: 1,
   spaceBetween: 24,
   grabCursor: true,
@@ -162,11 +165,6 @@ const swiperProjetos = new Swiper(".swiper", {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
-  },
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: '.swiper-button-prev',
   },
 
   breakpoints: {
@@ -180,3 +178,4 @@ const swiperProjetos = new Swiper(".swiper", {
     },
   },
 });
+
