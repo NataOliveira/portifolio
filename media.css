@@ -1,12 +1,4 @@
-/*Bug Card Dekstop*/
-@media (max-width: 907px) {
 
-    .cards{
-        width: 18rem;
-        height: 30rem;
-    }
-
-}
 /*----spline-----*/
 @media (max-width: 1050px) {
 
@@ -88,7 +80,7 @@
         width: 100%;
     }
 
-    .cards {
+     .cards {
         flex: 1 1 100%;
         width: 100%;
         height: auto;
