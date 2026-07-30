@@ -111,39 +111,39 @@ sr.reveal('.descricaosobre', {
 //---------Habilidades-Animation-----
 
 sr.reveal('.ch1',{
-    duration:3000,
+    duration:4000,
     origin: 'bottom',
-    delay: 100,
+    delay: 50,
     
 })
 sr.reveal('.ch2',{
-    duration:3000,
+    duration:4000,
     origin: 'bottom',
-    delay: 300,
+    delay: 100,
    
 })
 sr.reveal('.ch3',{
-    duration:3000,
+    duration:4000,
     origin: 'bottom',
-    delay: 500,
+    delay: 150,
     
 })
 sr.reveal('.ch4',{
-    duration:3000,
+    duration:4000,
     origin: 'bottom',
-    delay: 700,
+    delay: 200,
     
 })
 sr.reveal('.ch5',{
-    duration:3000,
+    duration:4000,
     origin: 'bottom',
-    delay: 900,
+    delay: 250,
     
 })
 sr.reveal('.ch6',{
-    duration:3000,
+    duration:4000,
     origin: 'bottom',
-    delay: 1000,
+    delay: 300,
     
 })
 

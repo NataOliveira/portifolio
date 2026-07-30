@@ -65,8 +65,8 @@
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  width: min(800px,80%);
-  max-width: 600px;
+  width: min(500px,80%);
+  
 }
 
 .descricaosobre p {

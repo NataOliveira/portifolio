@@ -57,7 +57,7 @@
   box-sizing: border-box;  
   border-radius: 1rem;
   border: 1px solid var(--card-border);
-  background-color: var(--card-bg);
+  background-color: var(--card-bg-projetos);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--card-shadow);
@@ -86,7 +86,9 @@
   width: 100%;
   height: auto;
   display: block;
+  filter: grayscale(0.8);
 }
+
 
 .cards:hover .fotoCard img {
   filter: brightness(1);
