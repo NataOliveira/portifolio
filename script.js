@@ -71,6 +71,13 @@ function digitar() {
 }
 digitar();
 
+/*Função de animação navbar*/
+window.nav =ScrollReveal();
+nav.reveal('.navbar', {
+    duration:2000,
+    origin: 'top',
+    delay: 50,
+})
 
 /*Função de animação Section Sobre*/
 window.sr =ScrollReveal({reset: true, distance: '60px'});
@@ -89,7 +96,7 @@ sr.reveal('.bt1', {
 sr.reveal('.bt2', {
     duration:3000,
     origin: 'right',
-    rotate: {x: 20, z: 20}, 
+     
 })
 
 //---------Sobre-Animation-----
@@ -105,7 +112,6 @@ sr.reveal('.descricaosobre', {
    
     
 })
-
 
 
 //---------Habilidades-Animation-----
