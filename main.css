@@ -53,7 +53,7 @@
 
 .foto img {
   border-radius: 50%;
-  width: 50%;
+  width: min(400px, 90%);
   height: 50%;
   object-fit: cover;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
