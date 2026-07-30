@@ -45,6 +45,8 @@ btnMenu.addEventListener('click', () => {
 });
 
 
+
+
 linksNav.addEventListener('click', fecharMenu);
 logo.addEventListener('click', fecharMenu);
 

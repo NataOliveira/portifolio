@@ -40,20 +40,21 @@
   border-radius: 20px;
   text-align: center;
   justify-content: space-evenly;
-  gap: 2rem;
-  flex-wrap: wrap;
+  margin-block: 8rem;
+  
 }
 
 .foto {
   display: flex;
   align-items: center;
+  max-width: 50%;
   justify-content: center;
 }
 
 .foto img {
   border-radius: 50%;
-  width: 260px;
-  height: 260px;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
 }
@@ -64,6 +65,7 @@
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+  width: min(800px,80%);
   max-width: 600px;
 }
 

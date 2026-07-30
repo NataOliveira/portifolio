@@ -59,10 +59,7 @@
     .decricao{
         font-size: 1rem;
     }
-    .descricaosobre{
-        width: 100%;
-        max-width: 100%
-    }
+    
     .bt1{
         padding: 1rem 2rem;
         font-size: 0.8rem;
@@ -121,8 +118,15 @@
         flex-wrap: wrap;
     }
 
+    a.logo{
+        font-size: 20px;
+        
+    }
+
     .btnMenu{
         display: flex;
+        width: 30px;
+        height: 35px;
     }
     
    .linksnav {
@@ -135,25 +139,24 @@
 
    .divBtnTemaMobile{
         display: flex;
-        width: 4rem;
-        height: 3rem;
+        width: 35px;
+        height: 30px;
         margin: 0;
+        gap: 5px;
    }
    .btnTemaMobile{
         display: flex;
-        
+        height: 22px;        
     }
     .spanBtn{
         padding: 0;
         display: flex;
-        right: 12px;
+        
+        
     }
 /*-------------------------------------------------Hero---*/
   
-    .descricaosobre{
-        width: 100%;
-        max-width: 100%
-    }
+    
 
     .subtitulo{
         font-size: 1.5rem;
@@ -180,10 +183,7 @@
         gap: 1rem;
     }
 
-     .foto img{
-        width: 15rem;
-        border-radius: 100%;
-    }
+   
     .sectionSobre{
         margin: 2rem auto;
     }
@@ -198,12 +198,6 @@
     
     .descricaocard h2 a {
         font-size: 1.3rem;
-    }
-
-     .fotodiv{
-        background-image: url(imgs/cordel3.png);
-        background-size: cover;
-        background-position: center;
     }
 
     .cardsh{
@@ -273,10 +267,17 @@
         .titulo-secao{
             font-size: 1rem;
         }
+
+        
+        .conteinerSobre{
+            display: block;
+        }
         .descricaosobre p {
             font-size: 0.7rem;
+            text-align: left;
         }
 
+      
          .tituloHabilidades p {
             font-size: 0.7rem;
         }
