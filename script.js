@@ -97,12 +97,8 @@ sr.reveal('.ch6', { duration: 2000, origin: 'bottom', delay: 300 });
 
 
 sr.reveal('.swiper', { duration: 2000, origin: 'bottom', delay: 300 });
-sr.reveal('.swiper',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 300,
-    
-})
+sr.reveal('.rodape', { duration: 2000, origin: 'bottom', delay: 300 });
+
 const swiperProjetos = new Swiper(".swiper", { 
   loop: true,
   speed: 800,
