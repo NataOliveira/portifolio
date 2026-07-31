@@ -45,8 +45,6 @@ btnMenu.addEventListener('click', () => {
 });
 
 
-
-
 linksNav.addEventListener('click', fecharMenu);
 logo.addEventListener('click', fecharMenu);
 
@@ -59,7 +57,7 @@ let i = 0;
 function digitar() {
     if (i < texto.length) {
         h1.textContent += texto.charAt(i);
-        i++; // <- faltava isso
+        i++;
 
         let delay = 60 + Math.random() * 90;
 
@@ -83,11 +81,11 @@ sr.reveal('.subtitulo', {
     rotate: { x: 0, y: -100, z: 0 }
 });
 sr.reveal('.bt1', { duration: 3000, origin: 'top' });
-sr.reveal('.bt2', { duration: 3000, origin: 'right' }); // Corrigido: 'right'
+sr.reveal('.bt2', { duration: 3000, origin: 'right' }); 
 
 
 sr.reveal('.foto', { duration: 2000, origin: 'left' });
-sr.reveal('.descricaosobre', { duration: 2000, origin: 'right' }); // Corrigido: 'right'
+sr.reveal('.descricaosobre', { duration: 2000, origin: 'right' });
 
 
 sr.reveal('.ch1', { duration: 2000, origin: 'bottom', delay: 50 });
