@@ -18,7 +18,7 @@
 }
 
  /*===================================================== Tablet ==========================================================*/ 
-@media (min-width: 415px) and (max-width: 768px)  {
+@media (min-width: 415px) and (max-width: 1024px)  {
 
     *{
     background-attachment: scroll;
@@ -65,7 +65,8 @@
 /*------------------------------------------------- Section sobre ---*/
 
     .conteinerSobre{
-        flex-direction: column;
+        min-height: 50vh;
+        margin-block: 0;
         gap: 1rem;
     }
     .foto img{
