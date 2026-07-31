@@ -1,7 +1,7 @@
 
 .hero{
     position: relative;
-    height: 100vh;
+    min-height: calc(100vh - 50px);
     margin-top: 60px;
     display: flex;
     align-items: center;
@@ -117,4 +117,3 @@
     visibility: hidden;
     offset-distance: 0;
 }
-
