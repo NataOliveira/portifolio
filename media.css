@@ -18,7 +18,7 @@
 }
 
  /*===================================================== Tablet ==========================================================*/ 
-@media (min-width: 415px) and (max-width: 1024px)  {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     *{
     background-attachment: scroll;
@@ -131,7 +131,7 @@
    }
 
    .divBtnTemaMobile{
-        display: flex;
+        display: grid;
         width: 35px;
         height: 30px;
         margin: 0;

@@ -11,6 +11,7 @@ header {
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,24 +19,26 @@ header {
   max-width: 850px;
   max-height: 60px;
   padding: 6px 15px;
+  top: 30px;
   background: var(--card-bg);
-  border: 1px solid var(--card-border);
+  border:var(--navbar-border);
    backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   overflow: hidden;
   will-change: backdrop-filter;
-  contain: layout paint;
   border-radius: 20px;
   box-shadow: var(--card-shadow);
-  transition: max-height 0.5s ease-in-out, background 0.3s ease, border-radius 0.3s ease;
+  transition: max-height 0.3s ease-in-out, background 0.3s ease, border-radius 0.3s ease;
 }
 
 .navbar.ativo {
   padding-bottom: 20px;
   width: 95%;
+  top: 30px;
   max-height: 70vh;
   align-items: flex-start; 
   background: linear-gradient(rgba(247, 245, 245, 0.3), rgba(27, 27, 27, 0.672)), var(--card-bg);
+  transition: max-height 0.3s ease-in-out, background 0.3s ease, border-radius 0.3s ease;
 }
 
 
@@ -141,9 +144,8 @@ header {
 }
 
 .divBtnTema {
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: space-between;
   position: relative;
   cursor: pointer;
   width: 3rem;
@@ -164,10 +166,9 @@ header {
 }
 
 .btnTema {
-  position: absolute;
-  left: 5px;
+  position: fixed;
   width: 1.3rem;
-  height: 90%;
+  height: 1.5rem;
   border-radius: 22px;
   background-color: var(--btn-tema-bg);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
