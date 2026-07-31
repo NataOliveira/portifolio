@@ -20,11 +20,13 @@ header {
   padding: 6px 15px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  backdrop-filter: blur(12px);
+   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  overflow: hidden;
+  will-change: backdrop-filter;
+  contain: layout paint;
   border-radius: 20px;
   box-shadow: var(--card-shadow);
-  overflow: hidden;
   transition: max-height 0.5s ease-in-out, background 0.3s ease, border-radius 0.3s ease;
 }
 

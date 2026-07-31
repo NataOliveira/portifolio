@@ -71,91 +71,34 @@ function digitar() {
 }
 digitar();
 
-/*Função de animação navbar*/
-window.nav =ScrollReveal();
-nav.reveal('.navbar', {
-    duration:2000,
-    origin: 'top',
-    delay: 50,
-})
 
-/*Função de animação Section Sobre*/
-window.sr =ScrollReveal({reset: true, distance: '60px'});
+window.sr = ScrollReveal({ reset: false, distance: '60px' });
 
-//--------HERO-Animation----------------
+
+sr.reveal('.navbar', { duration: 2000, origin: 'top', delay: 50 });
+
 
 sr.reveal('.subtitulo', {
-    duration:3000,
-    rotate: {x: 0, y:-100, z: 0}
-})
-sr.reveal('.bt1', {
-    duration:3000,
-    origin: 'top',
-    
-})
-sr.reveal('.bt2', {
-    duration:3000,
-    origin: 'right',
-     
-})
-
-//---------Sobre-Animation-----
-
-sr.reveal('.foto', {
-    duration:2000,
-    origin: 'left',
-    
-})
-sr.reveal('.descricaosobre', {
-    duration:2000,
-    origin: 'rigth',
-   
-    
-})
+    duration: 3000,
+    rotate: { x: 0, y: -100, z: 0 }
+});
+sr.reveal('.bt1', { duration: 3000, origin: 'top' });
+sr.reveal('.bt2', { duration: 3000, origin: 'right' }); // Corrigido: 'right'
 
 
-//---------Habilidades-Animation-----
-
-sr.reveal('.ch1',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 50,
-    
-})
-sr.reveal('.ch2',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 100,
-   
-})
-sr.reveal('.ch3',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 150,
-    
-})
-sr.reveal('.ch4',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 200,
-    
-})
-sr.reveal('.ch5',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 250,
-    
-})
-sr.reveal('.ch6',{
-    duration:4000,
-    origin: 'bottom',
-    delay: 300,
-    
-})
+sr.reveal('.foto', { duration: 2000, origin: 'left' });
+sr.reveal('.descricaosobre', { duration: 2000, origin: 'right' }); // Corrigido: 'right'
 
 
-//---------Carrosel-Projetos-----
+sr.reveal('.ch1', { duration: 2000, origin: 'bottom', delay: 50 });
+sr.reveal('.ch2', { duration: 2000, origin: 'bottom', delay: 100 });
+sr.reveal('.ch3', { duration: 2000, origin: 'bottom', delay: 150 });
+sr.reveal('.ch4', { duration: 2000, origin: 'bottom', delay: 200 });
+sr.reveal('.ch5', { duration: 2000, origin: 'bottom', delay: 250 });
+sr.reveal('.ch6', { duration: 2000, origin: 'bottom', delay: 300 });
 
+
+sr.reveal('.swiper', { duration: 2000, origin: 'bottom', delay: 300 });
 sr.reveal('.swiper',{
     duration:4000,
     origin: 'bottom',
@@ -164,10 +107,10 @@ sr.reveal('.swiper',{
 })
 const swiperProjetos = new Swiper(".swiper", { 
   loop: true,
-  speed: 5000,
-  autoplay:{
-    delay:0,
-    disableOninteraction: false,
+  speed: 800,
+  autoplay: {
+    delay: 3500, 
+    disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
   slidesPerView: 1,
@@ -193,8 +136,3 @@ const swiperProjetos = new Swiper(".swiper", {
   },
 });
 
-sr.reveal('.rodape',{
-    duration:1000,
-    origin: 'bottom',
-       
-})
