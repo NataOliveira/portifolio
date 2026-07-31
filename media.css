@@ -81,9 +81,8 @@
     }
 
      .cards {
-        flex: 1 1 100%;
-        width: 100%;
-        height: auto;
+        width: 90%;
+        height: 600px ;
     }
     
    
@@ -143,10 +142,9 @@
     }
     .spanBtn{
         padding: 0;
-        display: flex;
-        
-        
+        display: flex;    
     }
+
 /*-------------------------------------------------Hero---*/
   
     
@@ -186,7 +184,7 @@
      .cards {
         flex: 1 1 100%;
         width: 100%;
-        height: auto;
+        height: 600px;
     }
     
     .descricaocard h2 a {
@@ -203,11 +201,19 @@
 
 /*-------------------------------------------------Section footer---*/
 
+
+    
+    .rodape{
+        align-items: center;
+    }
+
     .info h2{
         font-size: 1rem;
+        text-align: center;
     }
 
     .info{
+        text-align: center;
         font-size: 0.6rem;
     }
 

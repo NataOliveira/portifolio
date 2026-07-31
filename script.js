@@ -156,6 +156,12 @@ sr.reveal('.ch6',{
 
 //---------Carrosel-Projetos-----
 
+sr.reveal('.swiper',{
+    duration:4000,
+    origin: 'bottom',
+    delay: 300,
+    
+})
 const swiperProjetos = new Swiper(".swiper", { 
   loop: true,
   speed: 5000,
@@ -187,3 +193,8 @@ const swiperProjetos = new Swiper(".swiper", {
   },
 });
 
+sr.reveal('.rodape',{
+    duration:1000,
+    origin: 'bottom',
+       
+})
