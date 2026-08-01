@@ -70,16 +70,14 @@ function digitar() {
 digitar();
 
 
-window.sr = ScrollReveal({ reset: false, distance: '60px' });
+window.sr = ScrollReveal({ reset: true, distance: '60px', scale: 1 });
 
 
-sr.reveal('.navbar', { duration: 2000, origin: 'top', delay: 50 });
+sr.reveal('.navbar', { duration: 2000, origin: 'top'});
 
+sr.reveal('.spline', { duration: 2000, origin: 'top', delay: 50,scale: 0.25 });
 
-sr.reveal('.subtitulo', {
-    duration: 3000,
-    rotate: { x: 0, y: -100, z: 0 }
-});
+sr.reveal('.subtitulo', {duration: 3000,rotate: { x: 0, y: -100, z: 0 }});
 sr.reveal('.bt1', { duration: 3000, origin: 'top' });
 sr.reveal('.bt2', { duration: 3000, origin: 'right' }); 
 
@@ -97,13 +95,13 @@ sr.reveal('.ch6', { duration: 2000, origin: 'bottom', delay: 300 });
 
 
 sr.reveal('.swiper', { duration: 2000, origin: 'bottom', delay: 300 });
-sr.reveal('.rodape', { duration: 2000, origin: 'bottom', delay: 300 });
+
 
 const swiperProjetos = new Swiper(".swiper", { 
   loop: true,
-  speed: 800,
+  speed: 5000,
   autoplay: {
-    delay: 3500, 
+    delay: 0, 
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
@@ -111,7 +109,7 @@ const swiperProjetos = new Swiper(".swiper", {
   spaceBetween: 24,
   grabCursor: true,
   observer: true,
-  observeParents: true,
+  
 
   pagination: {
     el: '.swiper-pagination',
