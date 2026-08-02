@@ -43,7 +43,6 @@
      font-size: 0.8rem;
     }
 
-    
      .subtitulo{
         font-size: 2rem;
     }
@@ -150,7 +149,7 @@
 /*-------------------------------------------------Hero---*/
     .spline {
     width: 100%;
-    transform: scale(0.6);
+    transform: scale(0.7);
     transform-origin: center center;
     
     }
