@@ -65,6 +65,7 @@
 /*------------------------------------------------- Section sobre ---*/
 
     .conteinerSobre{
+        flex-direction: column;
         min-height: 50vh;
         margin-block: 0;
         gap: 1rem;
@@ -97,7 +98,7 @@
 
 }
  /*=====================================================Mobile==========================================================*/ 
-@media (max-width: 540px){ 
+@media (max-width: 480px){ 
    
 /*-------------------------------------------------header---*/
 
@@ -147,8 +148,12 @@
     }
 
 /*-------------------------------------------------Hero---*/
-  
+    .spline {
+    width: 100%;
+    transform: scale(0.6);
+    transform-origin: center center;
     
+    }
 
     .subtitulo{
         font-size: 1.5rem;
