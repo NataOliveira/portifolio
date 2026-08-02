@@ -34,12 +34,14 @@
 
 .conteinerSobre {
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   border-radius: 20px;
   text-align: center;
   justify-content: space-evenly;
+  margin-block: 4rem;
+  
 }
 
 .foto {

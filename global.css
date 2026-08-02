@@ -5,7 +5,6 @@
 }
 body{
     background: var(--bg-color);
-
     font-family: var(--font-f);
     overflow-x: hidden;
     width: 100%;
